@@ -20,6 +20,11 @@ DarkShield AI helps users, designers, and organizations identify such practices 
 
 ---
 
+## 🔗 Project Links
+
+- 🌐 Live Application: https://darksheild-ai.netlify.app/
+- 📚 API Documentation: https://darksheild-ai.onrender.com/docs
+
 ## ✨ Features
 
 ### 🔍 Dark Pattern Detection

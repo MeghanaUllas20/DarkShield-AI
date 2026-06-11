@@ -1,0 +1,14 @@
+services:
+  - type: web
+    name: darkshield-ai-backend
+    env: python
+    buildCommand: pip install -r requirements.txt
+    startCommand: uvicorn app.main:app --host 0.0.0.0 --port $PORT
+    envVars:
+      - key: PYTHON_VERSION
+        value: 3.9.18
+      - key: ENVIRONMENT
+        value: production
+      - key: ALLOWED_ORIGINS
+        value: "*"
+      # Note: Do not hardcode GEMINI_API_KEY here. You will add it securely in the Render dashboard.

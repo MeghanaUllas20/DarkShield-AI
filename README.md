@@ -238,7 +238,7 @@ Built during a Hackathon to promote ethical and transparent digital experiences.
 ### Team DarkShield AI
 
 * Meghana Ullas
-* Team Members & Contributors
+* Team Members 
 
 ---
 
